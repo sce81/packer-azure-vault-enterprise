@@ -7,7 +7,7 @@ Packer scripts for building a Vault Enterprise machine image for Azure
 
 Tested on Packer 1.9.4
 
-Update the azure-arm configuration to match your own environment. 
+First: Update the azure-arm configuration to match your own environment. setting the virtual_network configuration to match the environment in which you wish to deploy a packer build image. The machine executing this code should be able to reach this environment directly.  
 
 **packer init .**  
 **packer build .**  
