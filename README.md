@@ -9,8 +9,8 @@ Tested on Packer 1.9.4
 
 Update the azure-arm configuration to match your own environment. 
 
-packer init .
-packer build .
+packer init .  
+packer build .  
 
 If you are executing from a local machine, variable azure_client_auth should be true. If executing through automation, the client_id of the Azure Service Account should be provided. 
 
