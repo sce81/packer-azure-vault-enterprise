@@ -26,4 +26,5 @@ ARM_CLIENT_SECRET
 **packer init .**  
 **packer build .**  
 
+**Further Information**  
 https://developer.hashicorp.com/packer/integrations/hashicorp/azure/latest/components/builder/arm
