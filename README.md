@@ -22,6 +22,7 @@ ARM_CLIENT_ID
 ARM_CLIENT_SECRET  
 
 **Third:** Execute the following commands.  
+  
 **packer init .**  
 **packer build .**  
 
