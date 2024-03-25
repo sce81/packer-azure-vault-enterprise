@@ -30,5 +30,5 @@ variable "tenant_id" {
 variable "azure_cli_auth" {
   type        = bool
   description = "Use local Azure CLI credentials"
-  default     = false
+  default     = true
 }

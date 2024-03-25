@@ -8,10 +8,10 @@ packer {
 }
 
 source "azure-arm" "main" {
-  location                          = "UK West"
-  managed_image_name                = "hashicorp-vault-${legacy_isotime("02-01-06-1504")}"
-  managed_image_resource_group_name = "vault"
-  use_azure_cli_auth                      = var.azure_cli_auth
+  location                               = "UK West"
+  managed_image_name                     = "hashicorp-vault-${legacy_isotime("02-01-06-1504")}"
+  managed_image_resource_group_name      = "vault"
+  use_azure_cli_auth                     = var.azure_cli_auth
   client_id                              = var.client_id
   client_secret                          = var.client_secret
   subscription_id                        = var.subscription_id
