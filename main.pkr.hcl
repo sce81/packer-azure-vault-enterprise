@@ -54,6 +54,10 @@ build {
     source      = "files/update-certificate-store.sh"
     destination = "/tmp/update-certificate-store.sh"
   }
+    provisioner "file" {
+    source      = "files/configure-auto-snapshot.sh"
+    destination = "/tmp/configure-auto-snapshot.sh"
+  }
 
   provisioner "shell" {
     execute_command = "chmod +x {{ .Path }}; {{ .Vars }} sudo -E sh '{{ .Path }}'"
