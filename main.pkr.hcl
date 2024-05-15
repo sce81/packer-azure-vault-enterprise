@@ -60,6 +60,8 @@ build {
     inline = [
       "curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash",
       "/tmp/install-vault --version ${var.VAULTVERSION}",
+      "sudo mv /tmp/update-certificate-store.sh /opt/vault/tls/",
+
     ]
     inline_shebang = "/bin/sh -x"
   }
